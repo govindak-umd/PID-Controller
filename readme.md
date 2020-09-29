@@ -15,6 +15,22 @@ Justin Albrecht - Navigator
 
 ## Overview
 
+This repository implements a simple PID controller that can output the necessary gain to be applied to the system given a current velocity, a target velocity, and a vector of previous errors in the system. 
+
+## Running Unit Tests
+
+```
+git clone --recursive https://github.com/dpiet/cpp-boilerplate
+cd <path to repository>
+mkdir build
+cd build
+cmake ..
+make
+Run tests: ./test/cpp-test
+Run program: ./app/shell-app
+```
+<!-- ## Overview
+
 Simple starter C++ project with:
 
 - cmake
@@ -133,4 +149,4 @@ perspetive view (or Windows->Perspective->Open Perspective->C/C++).
 
 - Git
 
-    It is possible to manage version control through Eclipse and the git plugin, but it typically requires creating another project. If you're interested in this, try it out yourself and contact me on Canvas.
+    It is possible to manage version control through Eclipse and the git plugin, but it typically requires creating another project. If you're interested in this, try it out yourself and contact me on Canvas. -->
